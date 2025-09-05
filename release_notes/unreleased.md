@@ -1,9 +1,1 @@
 **Unreleased**
-* Initial Tehtris connector release with the following actions:
-  * test connectivity
-  * get events
-  * send for isolation
-  * remove from isolation
-  * list processes
-  * update tag
-  * create app policy

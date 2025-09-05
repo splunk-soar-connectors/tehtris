@@ -18,7 +18,7 @@
     ],
     "license": "Copyright (c) Splunk, 2024-2025",
     "app_version": "1.0.0",
-    "utctime_updated": "2024-03-18T16:10:32.026578Z",
+    "utctime_updated": "2025-09-05T19:01:26.745047Z",
     "package_name": "phantom_tehtris",
     "main_module": "tehtris_connector.py",
     "min_phantom_version": "6.3.0",
