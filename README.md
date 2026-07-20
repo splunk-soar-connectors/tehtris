@@ -1,7 +1,7 @@
 # Tehtris
 
 Publisher: Splunk <br>
-Connector Version: 1.0.0 <br>
+Connector Version: 1.0.1 <br>
 Product Vendor: Tehtris <br>
 Product Name: Tehtris <br>
 Minimum Product Version: 6.3.0
