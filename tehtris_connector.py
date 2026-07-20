@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Splunk Inc.
+# Copyright (c) 2025-2026 Splunk Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -156,7 +156,7 @@ class TehtrisConnector(BaseConnector):
             r = request_func(
                 url,
                 auth=(username, password),  # basic authentication
-                verify=config.get("verify_server_cert", False),
+                verify=config.get("verify_server_cert", True),
                 **kwargs,
             )
         except Exception as e:
@@ -185,7 +185,7 @@ class TehtrisConnector(BaseConnector):
 
         params = {"fromDate": t}
         # make rest call
-        ret_val, response = self._make_rest_call(TEHTRIS_GET_EVENTS_ENDPOINT, action_result, params=params, headers=None)
+        ret_val, _response = self._make_rest_call(TEHTRIS_GET_EVENTS_ENDPOINT, action_result, params=params, headers=None)
 
         if phantom.is_fail(ret_val):
             # the call to the 3rd party device or service failed, action result should contain all the error details

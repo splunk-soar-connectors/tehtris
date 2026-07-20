@@ -16,6 +16,7 @@ VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
 **base_url** | required | string | Tehtris XDR base url |
 **api_key** | required | password | Tehtris XDR api key |
+**verify_server_cert** | optional | boolean | Verify server SSL certificate |
 
 ### Supported Actions
 
@@ -314,7 +315,7 @@ ______________________________________________________________________
 
 Auto-generated Splunk SOAR Connector documentation.
 
-Copyright 2025 Splunk Inc.
+Copyright 2026 Splunk Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
